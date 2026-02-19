@@ -2,7 +2,9 @@
 
 This project demonstrates **3D pose estimation**, **joint-angle computation**, and **movement detection** using MediaPipe’s Pose Landmarker.  
 The system analyzes leg movement in a video, detects high kicks, counts repetitions, and overlays 3D/2D pose information on the output video.
+
 <img width="367" height="703" alt="Screenshot 2026-02-19 at 3 02 14 PM" src="https://github.com/user-attachments/assets/d258ecdd-4c4b-4ffd-9a5d-4b9e64329b0b" />
+<img width="377" height="737" alt="Screenshot 2026-02-19 at 3 04 43 PM" src="https://github.com/user-attachments/assets/e06a4f6a-2020-42e3-9ea6-8a98374ebdcb" />
 
 ---
 
