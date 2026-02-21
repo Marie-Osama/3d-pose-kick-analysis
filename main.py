@@ -112,7 +112,8 @@ while cap.isOpened():
             y_offset += 28
 
             # Detect NEW kick (not repeated)
-            if high and not any(kick_history[:-1]):
+            history_list = list(kick_history)
+            if high and not any(history_list[:-1]):
                 total_kicks += 1
                 put_text(annotated, "HIGH KICK! (new)", y_offset, (0,0,255), 1.3, 3)
             elif high:
