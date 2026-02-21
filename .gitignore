@@ -82,3 +82,6 @@ output/*
 # If you want to keep the folders themselves:
 !input/.keep
 !output/.keep
+
+
+.DS_Store 
